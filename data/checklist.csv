@@ -1,0 +1,37 @@
+id,section,severity,check,verification
+identity-1,Campaign identity,Critical,Candidate name is prominent on every page,Inspect header and mobile navigation
+identity-2,Campaign identity,Critical,Office sought and district or jurisdiction are explicit,Inspect homepage hero and about page
+identity-3,Campaign identity,Critical,Election date and election type are correct,Confirm against official election information
+identity-4,Campaign identity,Recommended,Campaign-approved portrait and short biography are current,Obtain campaign owner sign-off
+content-1,Core content,Critical,Issue positions use clear headings and readable summaries,Review issue index and individual pages
+content-2,Core content,Recommended,Endorsements have names titles and permission to publish,Check source and campaign approval
+content-3,Core content,Recommended,Events include date time timezone location and accessibility details,Test event cards and detail pages
+content-4,Core content,Recommended,News and media entries show accurate dates and working sources,Open every linked source
+action-1,Actions and trust,Critical,Contact path works and confirms successful submission,Submit a test message without personal data
+action-2,Actions and trust,Critical,Volunteer path works and asks only for necessary information,Complete a test submission
+action-3,Actions and trust,Critical,Donation button reaches the intended external processor over HTTPS,Open link and confirm destination ownership
+action-4,Actions and trust,Critical,Required disclaimer or paid-for language received qualified review,Record reviewer and review date
+action-5,Actions and trust,Recommended,Privacy notice explains forms analytics cookies and third parties,Compare notice with actual site behavior
+access-1,Accessibility and mobile,Critical,Navigation forms dialogs and controls work by keyboard,Test with Tab Shift+Tab Enter Space and Escape
+access-2,Accessibility and mobile,Critical,Text and controls remain usable at 200 percent zoom,Zoom browser and inspect every template
+access-3,Accessibility and mobile,Critical,Informative images have meaningful alternative text,Inspect rendered images or accessibility tree
+access-4,Accessibility and mobile,Critical,Form fields have visible labels and understandable errors,Submit forms empty and with invalid values
+access-5,Accessibility and mobile,Recommended,Color contrast and focus indicators are visible,Review normal hover focus and error states
+language-1,Language quality,Critical,Each supported language contains the same critical campaign facts,Compare identity issues actions and disclaimers
+language-2,Language quality,Critical,A fluent human reviewed translated public content,Record reviewer and date
+language-3,Language quality,Recommended,Language switch preserves context when a matching page exists,Switch languages from multiple page types
+technical-1,Technical readiness,Critical,Primary custom domain resolves and HTTPS is valid,Test apex and www variants
+technical-2,Technical readiness,Critical,Old and alternate URLs redirect to one canonical version,Inspect response status and final URL
+technical-3,Technical readiness,Critical,No internal links or primary action links return errors,Crawl the published site and spot-check manually
+technical-4,Technical readiness,Recommended,Custom 404 page helps visitors recover,Open a deliberately invalid URL
+technical-5,Technical readiness,Recommended,Key pages load acceptably on a throttled mobile connection,Test homepage issues volunteer and donation handoff
+search-1,Search and measurement,Critical,Every indexable page has a unique descriptive title,Inspect page source or search preview
+search-2,Search and measurement,Recommended,Descriptions and social share previews are accurate,Test homepage and key content URLs
+search-3,Search and measurement,Critical,Robots directives and sitemap expose intended public pages only,Inspect robots.txt sitemap and page directives
+search-4,Search and measurement,Recommended,Structured data matches visible claims and dates,Run a schema validator and compare visible content
+search-5,Search and measurement,Critical,Analytics and advertising tags follow the site's consent design,Test before and after each consent choice
+ops-1,Operations,Critical,Named people own domain hosting content and incident response,Record owners and backup contacts
+ops-2,Operations,Critical,Current content and configuration have a restorable backup,Complete and document a restore test
+ops-3,Operations,Recommended,Campaign has a schedule for events news endorsements and corrections,Assign owners and review cadence
+ops-4,Operations,Critical,Post-election archive redirect or transition plan is documented,Record trigger date owner and intended outcome
+
