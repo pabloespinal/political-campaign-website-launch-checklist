@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If this checklist helps your campaign or research, please cite the repository."
+title: "Political Campaign Website Launch Checklist"
+type: software
+authors:
+  - family-names: "Espinal"
+    given-names: "Pablo"
+version: 1.0.0
+date-released: 2026-07-25
+url: "https://pabloespinal.github.io/political-campaign-website-launch-checklist/"
+repository-code: "https://github.com/pabloespinal/political-campaign-website-launch-checklist"
+abstract: "An open, nonpartisan launch-readiness checklist for political campaign websites."
+keywords:
+  - political campaign
+  - campaign website
+  - civic technology
+  - accessibility
+  - multilingual websites
+  - search engine optimization
+
